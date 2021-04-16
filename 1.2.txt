@@ -1,0 +1,7 @@
+1. Van te voren values reserveren en daarbij meteen aangeven op welke manier deze 
+beschikbaar zijn en daarbij ook nog zorgen dat alle waarden niet dubbel in het apparaat gezet worden.
+
+2. parameters
+3. text(),author() en title()
+4. zodat deze niet direct aangepast kunnen worden, alleen door een functie aan te roepen
+5. om aan te duiden dat de book class uit het hpp bestand bedoelt wordt.
