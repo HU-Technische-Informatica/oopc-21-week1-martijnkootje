@@ -79,7 +79,7 @@ public:
 	{}
 
 	void print();
-	void makeMoreHipster(furnatures &f);
+	void makeMoreHipster();
 };
 
 #endif //FURNITURE_HPP
