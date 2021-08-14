@@ -13,6 +13,6 @@ int main(){
 	furnatures f(v, t);
 	f.print();
 
-	f.makeMoreHipster(f);
+	f.makeMoreHipster();
 	f.print();
 }
