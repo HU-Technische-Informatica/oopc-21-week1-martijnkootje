@@ -114,12 +114,12 @@ void furnatures::makeMoreHipster(){
 	stoelen.clear();
 
 	for(stoel s : v){
-		f.stoelen.push_back(s);
+		stoelen.push_back(s);
 	}
 
-	tafel nt(f.t.legs() + f.stoelen.size(), f.t.height(), f.t.widht());
+	tafel nt(t.legs() + stoelen.size(), t.height(), t.widht());
 
-	f.t = nt;
+	t = nt;
 }
 
 
