@@ -104,14 +104,14 @@ void furnatures::print_tafel(){
 	cout<< "]" << endl;
 }
 
-void furnatures::makeMoreHipster(furnatures &f){
+void furnatures::makeMoreHipster(){
 	vector<stoel> v;
-	for(stoel s: f.stoelen){
+	for(stoel s: stoelen){
 		stoel ns(s.legs()-1, s.seats());
 		v.push_back(ns);
 	}
 
-	f.stoelen.clear();
+	stoelen.clear();
 
 	for(stoel s : v){
 		f.stoelen.push_back(s);
